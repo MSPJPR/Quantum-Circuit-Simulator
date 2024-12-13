@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quantum Circuit Simulator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Quantum Circuit Simulator</h1>
+  <div id="circuit-builder">
+    <button onclick="addGate('H')">Hadamard (H)</button>
+    <button onclick="addGate('X')">Pauli-X (X)</button>
+    <button onclick="addGate('Y')">Pauli-Y (Y)</button>
+    <button onclick="addGate('Z')">Pauli-Z (Z)</button>
+    <button onclick="addGate('S')">Phase (S)</button>
+    <button onclick="addGate('T')">T-gate (T)</button>
+    <button onclick="addGate('CNOT')">CNOT</button>
+    <button onclick="measure()">Measure</button>
+    <button onclick="resetCircuit()">Reset</button>
+  </div>
+  <div id="circuit-display"></div>
+  <h2>Qubit States:</h2>
+  <pre id="state-display">|0⟩</pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
