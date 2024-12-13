@@ -1,6 +1,7 @@
 # Quantum-Circuit-Simulator
 Project Overview: Quantum Circuit Simulator
 website link:https://regal-belekoy-2f9dee.netlify.app/
+
 Project Description
 
 The Quantum Circuit Simulator is a simple web-based application that allows users to design and simulate basic quantum circuits. Using JavaScript and HTML/CSS, users can add quantum gates, simulate their effects on qubits, and measure outcomes in real-time. The project is designed to be intuitive, interactive, and educational, providing a foundation for understanding quantum computing concepts like superposition, entanglement, and gate operations.
